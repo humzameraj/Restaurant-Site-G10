@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<!--
+Name: Humza Meraj
+Date Created: 2/25/2019
+Most recent revision: 3/15/2019
+-->
+
+<html lan="en">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<head>
+    <title>Contact Us - BBQ Tonight</title>
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="contactUs.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <style>
+
+article {
+  font-weight: bold;
+}
+
+.notbold {
+  font-weight: normal;
+}
+
+
+.container-fluid {
+  float: none;
+  margin:auto;
+
+}
+
+
+    </style>
+</head>
+
+<body>
+<div class="header container-fluid">
+    <header>
+        <h1>BBQ Tonight</h1>
+    </header>
+</div>
+
+
+<ul class="nav nav-tabs nav-fill">
+    <li class="nav-item">
+        <a class="nav-link " href="index.html"></span><i class="fas fa-home"></i> Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="menu.html">Menu</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="contactus.html">Contact Us</a>
+    </li>
+</ul>
+
+
+<div class="topBoss">
+    <section>
+        <article>
+
+            <noscript>
+                You don't have JavaScript enabled. This website is best viewed with JavaScript enabled in your
+                browser.Please visit <a href="https://www.enable-javascript.com/">"How To Enable JavaScript On Your
+                Browser"</a> for instructions on how to enable JavaScript.
+            </noscript>
+
+            <br>
+
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Contact Us</h2><br>
+                        <form action="#" method="POST" class="">
+
+                            <div class="form-group row">
+                                <label for="name" class="form-control-label col-sm-6">Name:</label>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="email" class="form-control-label col-sm-6">Email:</label>
+                                <div class="col-sm-4">
+                                    <input type="email" placeholder="example@example.com" class="form-control"
+                                           id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="phone" class="form-control-label col-sm-6">Phone:</label>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" placeholder="XXX-XXX-XXXX" id="phone"
+                                           name="phone">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="reason" class="form-control-label col-sm-6">Reason for Inquiry:</label>
+                                <div class="col-sm-4">
+                                    <select class="form-control" id="reason" name="reason">
+                                        <option value="catering" selected>Catering</option>
+                                        <option value="privateParty">Private Party</option>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="info" class="form-control-label col-sm-6 ">Additional Information:</label>
+                                <div class="col-sm-4">
+                                    <textarea class="form-control" id="info"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="visited" class="form-control-label col-sm-6 ">Have you been to the
+                                    restaurant?</label>
+                                <div class="col-sm-4">
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input type="radio" id="yes" name="visited" value="yes" checked>
+                <label class="form-check-label" for="yes">Yes</label></span>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input type="radio" id="no" name="visited" value="no">
+                <label class="form-check-label" for="no">No</label></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="dayToContact" class="form-control-label col-sm-6">Best day to contact
+                                    you:</label>
+                                <div class="col-sm-5">
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input class="form-check-input" type="checkbox" id="monday" name="dayToContact"
+                                             value="monday">
+                <label class="form-check-label" for="monday">M</label></span>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input class="form-check-input" type="checkbox" id="tuesday" name="dayToContact"
+                                             value="tuesday">
+                <label class="form-check-label" for="tuesday">T</label></span>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input class="form-check-input" type="checkbox" id="wednesday" name="dayToContact"
+                                             value="wednesday">
+                <label class="form-check-label" for="wednesday">W</label></span>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input class="form-check-input" type="checkbox" id="thursday" name="dayToContact"
+                                             value="thursday">
+                <label class="form-check-label" for="thursday">TH</label></span>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                <span class="notbold"><input class="form-check-input" type="checkbox" id="friday" name="dayToContact"
+                                             value="friday">
+                <label class="form-check-label" for="friday">F</label></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" onclick="return validateForm()">Submit
+                                Request
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+
+
+        </article>
+
+    </section>
+    <br>
+</div>
+<footer>
+    <hr/>
+    <p>2658 Old Denton Rd, Carrolton, Texas, 76015</p>
+    <p>817-557-1212</p>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
