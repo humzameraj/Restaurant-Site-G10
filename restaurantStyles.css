@@ -1,0 +1,51 @@
+/*
+Creator: Humza Meraj
+Date created: 3/4/2019
+Date last modified: 3/15/2019
+*/
+
+header{
+      text-decoration: underline;
+      text-align: center;
+      padding-top: 25px;
+      font-family: 'Indie Flower', cursive;
+
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover{
+
+  font-weight: bold;
+
+
+
+}
+
+a:active {
+  text-decoration: none;
+
+
+}
+
+nav{
+  padding-left: 10px;
+
+}
+body{
+  background-color: #fdffed;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1em;
+}
+
+footer{
+  text-align: center;
+}
+.topBoss
+{
+  background-color: white;
+  text-align: center;
+
+}
